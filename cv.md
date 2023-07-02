@@ -1,0 +1,10 @@
+# Svetlana Shlekht
+
+## Contact information:
+
+Phone: +7 905 456 0184
+E-mail: barny.2504@gmail.com
+Telegram: @svetlanashlekht
+Discord: barnysha
+Github: barnysha
+
