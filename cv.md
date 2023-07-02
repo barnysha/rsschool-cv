@@ -47,3 +47,8 @@ String.prototype.toJadenCase = function (str) {
 * Web-design and development on a retraining course at the RCSI (completed)
 * JavaScript Course: JavaScript Dive at the HTMLacademy.ru (completed)
 
+
+## Languages:
+* Russian - Native
+* English - Intermediate (according to the online test at EFset Logo www.efset.org)
+* Deutsch - Basic
