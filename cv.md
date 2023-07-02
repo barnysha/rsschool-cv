@@ -22,4 +22,28 @@ I am diligent and like to learn, but I need a mentor to guide me and tell me how
 * Git, GitHub
 * VS Code, Sublime
 * FIGMA
+* БЭМ
+
+## Code example:
+
+```
+String.prototype.toJadenCase = function (str) {
+
+    str = this.toLowerCase().split(' ');
+
+    for (let i = 0; i < str.length; i++) {
+    str[i] = str[i].charAt(0).toUpperCase() + str[i].substring(1);
+    }
+
+    return str = str.join(' ');
+
+};
+
+```
+
+
+## Courses:
+* HTML and CSS course at school CANSHECODE(completed)
+* Web-design and development on a retraining course at the RCSI (completed)
+* JavaScript Course: JavaScript Dive at the HTMLacademy.ru (completed)
 
