@@ -1,10 +1,74 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    font: 10px;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Roboto:wght@400;700&display=swap');
 
 body {
     font-family: 'Roboto', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.header {
+    padding: 20px 0;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.5);
+    position: sticky;
+}
+.header--nav {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.main {
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info {
+    display: flex;
+    align-items: end;
+}
+
+.cv-foto {
+    border-radius: 200px;
+}
+
+.contacts--list {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.about-me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.my-education {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.my-skills--info {
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+}
+.my-skills--item {
+    padding: 0 1rem;
 }
