@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -8,15 +9,66 @@
     <title>My CV</title>
 </head>
 <body>
-    <h1>Svetlana Shlekht</h1>
-        <div class="contacts">
-            <h3 class="contacts--title">Contact information:</h3>
+    <header class="header">
+        <nav class="header--nav">
+            <li>About me</li>
+            <li>My skills</li>
+            <li>My education</li>
+        </nav>
+    </header>
+    <div class="main">
+        <section class="info">
+            <div class="info--foto">
+                <img class="cv-foto" src="assets/cv-foto.jpg" alt="my photo">
+                <h1>Svetlana Shlekht</h1>
+                <h2>Front-end Developer</h2>
+            </div>
+            <div class="contacts">
+                <h3 class="contacts--title">Contact information:</h3>
                 <ul class="contacts--list">
                     <li>Phone: <a href="#" class="contacts--phone">+7 905 456 0184</a></li>
                     <li>E-mail: <a href="#" class="contacts--email">barny.2504@gmail.com</a></li>
                     <li>Telegram: <a href="#" class="contacts--telegram">@svetlanashlekht</a></li>
                     <li>Github: <a href="https://github.com/barnysha" class="contacts--github">@barnysha</a></li>
                 </ul>
-        </div>
+            </div>
+        </section>
+        <section class="about-me">
+            <div class="about-me--info">
+                <h2>About me</h2>
+                <span>I have an economic education. However, working in sales,
+                    I always dreamed of becoming a programmer.
+                    The Code attracted me and the lack of time for training stopped me.
+                    Now it’s enough. I am diligent and like to learn, but I need a mentor
+                    to guide me and tell me how to code in real life.</span>
+            </div>
+            <div class="education">
+                <h2>My courses</h2>
+                <ul class="my-education">
+                    <li>HTML and CSS course at school CANSHECODE(completed)</li>
+                    <li>Web-design and development on a retraining course at the RCSI (completed)</li>
+                    <li>JavaScript Course: JavaScript Dive at the HTMLacademy.ru (completed)</li>
+                </ul>
+            </div>
+        </section>
+        <section class="skills">
+            <div class="my-skills">
+                <h2>My skills</h2>
+                <ul class="my-skills--info">
+                    <li class="my-skills--item">HTML5</li>
+                    <li class="my-skills--item">CSS3</li>
+                    <li class="my-skills--item">JavaScript Basics</li>
+                    <li class="my-skills--item">Git, GitHub</li>
+                    <li class="my-skills--item">VSCode, Sublime</li>
+                    <li class="my-skills--item">FIGMA</li>
+                    <li class="my-skills--item">BEM</li>
+                    <li class="my-skills--item">Bootstrap</li>
+                </ul>
+            </div>
+            <div class="my-code">
+            </div>
+        </section>
+    </div>
 </body>
 </html>
+
