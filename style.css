@@ -25,7 +25,7 @@ body {
     font-family: 'Roboto', sans-serif;
     min-height: 100vh;
     padding: 2rem 2rem 0 2rem;
-    background-color: #FFDEB4;
+    background-color: #d4cdf7;
 }
 
 h1 {
@@ -97,6 +97,7 @@ a {
 
 .contacts--phone:hover, .contacts--email:hover, .contacts--telegram:hover, .contacts--github:hover {
     color: #B2A4FF;
+    transition: 0.7s;
 }
 
 .work-skills{
@@ -158,15 +159,7 @@ a {
 .my-intro{
     padding-top: 3rem;
 }
-.my-education {
-    list-style-type: none;
-}
-
-.my-languages {
-    list-style-type: none;
-}
-
-.my-projects--list{
+.my-education, .my-languages, .my-projects--list {
     list-style-type: none;
 }
 
@@ -176,6 +169,7 @@ a {
 
 .my-projects--bakery:hover, .my-projects--lawyer:hover, .my-projects--party:hover {
     color: #B2A4FF;
+    transition: 0.7s;
 }
 
 .footer {
