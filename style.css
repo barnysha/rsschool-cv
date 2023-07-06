@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font: 10px;
+    scroll-behavior: smooth;
 }
 
 @font-face {
@@ -129,11 +130,26 @@ a {
 .about-me {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-between;
     /* align-items: center; */
     /* gap: 3rem; */
     width: 60%;
     color: #1e1b31;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+.menu-item {
+    color: #1e1b31;
+    font-weight: 600;
+}
+
+.menu-item:hover {
+    color: #B2A4FF;
+    transition: 0.5s;
 }
 
 .my-education {
