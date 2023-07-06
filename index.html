@@ -80,7 +80,7 @@
                 <code>
                     String.prototype.toJadenCase = function (str) {
                         <br>&nbsp; str = this.toLowerCase().split(' ');
-                        <br>&nbsp; for (let i = 0; i &lt str.length; i++) {
+                        <br>&nbsp; for (let i = 0; i &lt; str.length; i++) {
                         <br>&nbsp; str[i] = str[i].charAt(0).toUpperCase() + str[i].substring(1);
                         <br>&nbsp; }
                         <br>&nbsp; return str = str.join(' ');
