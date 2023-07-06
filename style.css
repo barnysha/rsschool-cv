@@ -28,9 +28,6 @@ body {
     background-color: #FFDEB4;
 }
 
-/* h1, h2 {
-    text-align: center;
-} */
 h1 {
     font-size: 2rem;
 }
@@ -89,8 +86,15 @@ a {
     text-align: center;
 }
 
+.contacts--icon {
+    width: 20px;
+}
+
 .contacts--phone, .contacts--email, .contacts--telegram, .contacts--github {
     color: #FDF7C3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .contacts--phone:hover, .contacts--email:hover, .contacts--telegram:hover, .contacts--github:hover {
@@ -131,8 +135,7 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    /* align-items: center; */
-    /* gap: 3rem; */
+    gap: 4rem;
     width: 60%;
     color: #1e1b31;
 }
@@ -140,8 +143,9 @@ a {
 .menu {
     display: flex;
     justify-content: space-between;
-    padding: 1rem;
+    max-width: 80rem;
 }
+
 .menu-item {
     color: #1e1b31;
     font-weight: 600;
@@ -149,9 +153,13 @@ a {
 
 .menu-item:hover {
     color: #B2A4FF;
-    transition: 0.5s;
+    text-decoration: underline;
+    transition: 0.7s;
 }
 
+.my-intro{
+    padding-top: 6rem;
+}
 .my-education {
     list-style-type: none;
 }
@@ -167,9 +175,20 @@ a {
 .my-code {
     border: 1px solid #1e1b31;
     padding: 1rem;
-
     width: max-content;
     align-self: center;
+}
+
+.my-projects--list{
+    list-style-type: none;
+}
+
+.my-projects--bakery, .my-projects--lawyer, .my-projects--party {
+    color: #1e1b31;
+}
+
+.my-projects--bakery:hover, .my-projects--lawyer:hover, .my-projects--party:hover {
+    color: #B2A4FF;
 }
 
 .footer {
