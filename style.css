@@ -165,3 +165,11 @@ a {
     align-items: center;
     gap: 1rem;
 }
+
+.footer--logo-git {
+    width: 3rem;
+}
+
+.footer--logo-rsschool {
+    width: 5rem;
+}
