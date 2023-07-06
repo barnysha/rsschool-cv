@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font: 10px;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url("assets/fonts/Roboto.ttf");
+   }
+@font-face {
+    font-family: 'Roboto';
+    src: url("assets/fonts/RobotoThin.ttf");
+    font-weight: 100;
+  }
+@font-face {
+    font-family: 'Roboto';
+    src: url("assets/fonts/RobotoRegular.ttf");
+    font-weight: 300;
+  }
+
+body {
+    font-family: 'Roboto', sans-serif;
+    min-height: 100vh;
+    padding: 2rem 2rem 0 2rem;
+    background-color: #FFDEB4;
+}
+
+/* h1, h2 {
+    text-align: center;
+} */
+h1 {
+    font-size: 2rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+.main {
+    max-width: 1024px;
+    margin: auto;
+    padding: 1rem 1rem;
+    display: flex;
+    gap: 2rem;
+    border: 1px solid #1e1b31;
+    box-shadow: 0 0 5px #1e1b31;
+    background-color: #FDF7C3;
+}
+
+.info {
+    background-color: #1e1b31;
+    box-shadow: 0 0 5px #1e1b31;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3rem;
+    width: 40%;
+    padding: 0 0 2rem 0;
+    color: #FDF7C3;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 1rem;
+    gap: 2rem;
+}
+
+.cv-foto {
+    border-radius: 20rem;
+    box-shadow: 0 0 5px #FDF7C3;
+    width: 100%;
+    margin: 0;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.contacts--list {
+    list-style-type: none;
+    text-align: center;
+}
+
+.contacts--phone, .contacts--email, .contacts--telegram, .contacts--github {
+    color: #FDF7C3;
+}
+
+.contacts--phone:hover, .contacts--email:hover, .contacts--telegram:hover, .contacts--github:hover {
+    color: #B2A4FF;
+}
+
+.work-skills{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.work-skills--info {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.work-skills--item {
+    padding: 0.3rem;
+}
+
+.other-skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.other-skills--info {
+    list-style-type: none;
+    text-align: center;
+}
+
+.about-me {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    /* gap: 3rem; */
+    width: 60%;
+    color: #1e1b31;
+}
+
+.my-education {
+    list-style-type: none;
+}
+
+.my-languages {
+    list-style-type: none;
+}
+
+.my-code--titlle {
+    text-align: center;
+}
+
+.my-code {
+    border: 1px solid #1e1b31;
+    padding: 1rem;
+
+    width: max-content;
+    align-self: center;
+}
+
+.footer {
+    max-width: 1024px;
+    margin: auto;
+    padding: 0.5rem 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
