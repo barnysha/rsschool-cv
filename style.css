@@ -55,6 +55,7 @@ a {
     gap: 4rem;
     width: 40%;
     color: #FDF7C3;
+    padding: 1rem;
 }
 
 .header {
@@ -138,11 +139,11 @@ a {
     width: 60%;
     color: #1e1b31;
 }
-
-.menu {
+.menu-list {
     display: flex;
     justify-content: space-between;
     max-width: 80rem;
+    list-style-type:  none;
 }
 
 .menu-item {
@@ -156,10 +157,28 @@ a {
     transition: 0.7s;
 }
 
+.submenu--my-projects {
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;
+    padding-top: 0.5rem;
+}
+
+.submenu--my-projects li {
+    position: relative;
+    padding-top: 0.3rem;
+}
+
+.menu-list li:hover>ul{
+    opacity: 1;
+    visibility: visible;
+    transition: 0.7s linear;
+}
+
 .my-intro{
     padding-top: 3rem;
 }
-.my-education, .my-languages, .my-projects--list {
+.my-education, .my-languages, .submenu--my-projects {
     list-style-type: none;
 }
 
@@ -170,6 +189,22 @@ a {
 .my-projects--bakery:hover, .my-projects--lawyer:hover, .my-projects--party:hover {
     color: #B2A4FF;
     transition: 0.7s;
+}
+
+.my-code {
+    border: 1px solid #1e1b31;
+    margin: 0 2rem;
+    padding: 1rem 2rem;
+}
+
+.my-code--titlle {
+    text-align: center;
+}
+
+code {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
 }
 
 .footer {

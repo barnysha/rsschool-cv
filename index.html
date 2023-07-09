@@ -49,11 +49,19 @@
         </section>
         <section class="about-me" id="about-me">
             <nav class="menu">
-                    <a class="menu-item" href="#info">About me</a>
-                    <a class="menu-item" href="#my-education">My education</a>
-                    <a class="menu-item" href="#my-languages">My languages</a>
-                    <a class="menu-item" href="#my-code">My code</a>
-                    <a class="menu-item" href="#my-projects">My projects</a>
+                <ul class="menu-list">
+                    <li><a class="menu-item" href="#info">About me</a></li>
+                    <li><a class="menu-item" href="#my-education">My education</a></li>
+                    <li><a class="menu-item" href="#my-languages">My languages</a></li>
+                    <li><a class="menu-item" href="#my-code">My code</a></li>
+                    <li><a class="menu-item" href="#my-projects">&#9660;&nbsp;My projects</a>
+                            <ul class="submenu--my-projects">
+                                <li><a class="my-projects--bakery" href="https://frill-bittersweet-comma.glitch.me" target="_blank">Bakery</a></li>
+                                <li><a class="my-projects--lawyer" href="https://loud-slash-argument.glitch.me" target="_blank">Lawyer</a></li>
+                                <li><a class="my-projects--party" href="https://azure-octagonal-wholesaler.glitch.me/" target="_blank">Party</a></li>
+                            </ul>
+                    </li>
+                </ul>
             </nav>
             <div class="my-intro"  id="info">
                 <h1>Svetlana Shlekht</h1>
@@ -93,14 +101,6 @@
                         <br>&nbsp; return str = str.join(' ');
                     <br>};
                 </code>
-            </div>
-            <div class="my-projects" id="my-projects">
-                <h2>My projects</h2>
-                <ul class="my-projects--list">
-                    <li><a class="my-projects--bakery" href="https://frill-bittersweet-comma.glitch.me" target="_blank">Bakery</a></li>
-                    <li><a class="my-projects--lawyer" href="https://loud-slash-argument.glitch.me" target="_blank">Lawyer</a></li>
-                    <li><a class="my-projects--party" href="https://azure-octagonal-wholesaler.glitch.me/" target="_blank">Party</a></li>
-                </ul>
             </div>
         </section>
     </div>
