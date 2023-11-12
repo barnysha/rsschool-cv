@@ -182,11 +182,18 @@ a {
     list-style-type: none;
 }
 
-.my-projects--bakery, .my-projects--lawyer, .my-projects--party {
+.my-projects--bakery,
+.my-projects--lawyer,
+.my-projects--party,
+.my-projects--player {
     color: #1e1b31;
 }
 
-.my-projects--bakery:hover, .my-projects--lawyer:hover, .my-projects--party:hover {
+.my-projects--bakery:hover,
+.my-projects--lawyer:hover,
+.my-projects--party:hover,
+.my-projects--player:hover
+{
     color: #B2A4FF;
     transition: 0.7s;
 }
