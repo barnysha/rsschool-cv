@@ -1,0 +1,233 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font: 10px;
+    scroll-behavior: smooth;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url("assets/fonts/Roboto.ttf");
+   }
+@font-face {
+    font-family: 'Roboto';
+    src: url("assets/fonts/RobotoThin.ttf");
+    font-weight: 100;
+  }
+@font-face {
+    font-family: 'Roboto';
+    src: url("assets/fonts/RobotoRegular.ttf");
+    font-weight: 300;
+  }
+
+body {
+    font-family: 'Roboto', sans-serif;
+    min-height: 100vh;
+    padding: 2rem 2rem 0 2rem;
+    background-color: #d4cdf7;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+.main {
+    max-width: 1024px;
+    margin: auto;
+    padding: 1rem 1rem;
+    display: flex;
+    gap: 2rem;
+    border: 1px solid #1e1b31;
+    box-shadow: 0 0 5px #1e1b31;
+    background-color: #FDF7C3;
+}
+
+.info {
+    background-color: #1e1b31;
+    box-shadow: 0 0 5px #1e1b31;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    width: 40%;
+    color: #FDF7C3;
+    padding: 1rem;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 1rem;
+    gap: 2rem;
+}
+
+.cv-foto {
+    border-radius: 20rem;
+    box-shadow: 0 0 5px #FDF7C3;
+    width: 100%;
+    margin: 0;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.contacts--list {
+    list-style-type: none;
+    text-align: center;
+}
+
+.contacts--icon {
+    width: 20px;
+}
+
+.contacts--phone, .contacts--email, .contacts--telegram, .contacts--github {
+    color: #FDF7C3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contacts--phone:hover, .contacts--email:hover, .contacts--telegram:hover, .contacts--github:hover {
+    color: #B2A4FF;
+    transition: 0.7s;
+}
+
+.work-skills{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.work-skills--info {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.work-skills--item {
+    padding: 0.3rem;
+}
+
+.other-skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.other-skills--info {
+    list-style-type: none;
+    text-align: center;
+}
+
+.about-me {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 3rem;
+    width: 60%;
+    color: #1e1b31;
+}
+.menu-list {
+    display: flex;
+    justify-content: space-between;
+    max-width: 80rem;
+    list-style-type:  none;
+}
+
+.menu-item {
+    color: #1e1b31;
+    font-weight: 600;
+}
+
+.menu-item:hover {
+    color: #B2A4FF;
+    text-decoration: underline;
+    transition: 0.7s;
+}
+
+.submenu--my-projects {
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;
+    padding-top: 0.5rem;
+}
+
+.submenu--my-projects li {
+    position: relative;
+    padding-top: 0.3rem;
+}
+
+.menu-list li:hover>ul{
+    opacity: 1;
+    visibility: visible;
+    transition: 0.7s linear;
+}
+
+.my-intro{
+    padding-top: 3rem;
+}
+.my-education, .my-languages, .submenu--my-projects {
+    list-style-type: none;
+}
+
+.my-projects--bakery,
+.my-projects--lawyer,
+.my-projects--party,
+.my-projects--player {
+    color: #1e1b31;
+}
+
+.my-projects--bakery:hover,
+.my-projects--lawyer:hover,
+.my-projects--party:hover,
+.my-projects--player:hover
+{
+    color: #B2A4FF;
+    transition: 0.7s;
+}
+
+.my-code {
+    border: 1px solid #1e1b31;
+    margin: 0 2rem;
+    padding: 1rem 2rem;
+}
+
+.my-code--titlle {
+    text-align: center;
+}
+
+code {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.footer {
+    max-width: 1024px;
+    margin: auto;
+    padding: 0.5rem 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.footer--logo-git {
+    width: 3rem;
+}
+
+.footer--logo-rsschool {
+    width: 5rem;
+}
